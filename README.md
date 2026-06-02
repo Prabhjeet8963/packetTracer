@@ -98,7 +98,7 @@ Here are structural diagrams of the simulated environments:
 ### Scenario A: FLSM
 ```mermaid
 graph TD
-    subgraph Scenario A — FLSM /26
+    subgraph SA ["Scenario A — FLSM /26"]
         R1[Router 0]
         R1 --- Sub1["Subnet 1 (.0/26)"]
         R1 --- Sub2["Subnet 2 (.64/26)"]
@@ -116,8 +116,8 @@ graph TD
 ### Scenario B: VLSM (Multi-Router Link)
 ```mermaid
 graph LR
-    subgraph Scenario B — VLSM
-        subgraph Router0 LANs
+    subgraph SB ["Scenario B — VLSM"]
+        subgraph R0_LANs ["Router0 LANs"]
             PC0(PC0) & PC1(PC1) --- LA["LAN-A (.0/27)"]
             PC2(PC2) & PC3(PC3) --- LB["LAN-B (.32/27)"]
             LA --- R0[Router0]
@@ -126,7 +126,7 @@ graph LR
 
         R0 <-->|Serial Link: 10.0.0.0/30| R1[Router1]
 
-        subgraph Router1 LANs
+        subgraph R1_LANs ["Router1 LANs"]
             R1 --- LC["LAN-C (.64/26)"]
             R1 --- LD["LAN-D (.128/25)"]
             LC --- PC4(PC4) & PC5(PC5) & PC6(PC6) & PC7(PC7)
@@ -140,7 +140,7 @@ graph LR
 ### Scenario C: Over-segmented (Router-on-a-Stick)
 ```mermaid
 graph TD
-    subgraph Scenario C — RoaS
+    subgraph SC ["Scenario C — RoaS"]
         R[Router 0] <==>|802.1Q Trunk Trunk| S[Switch 0]
         S --- V1[VLAN 1] --- PC0(PC0)
         S --- V2[VLAN 2] --- PC1(PC1)
@@ -261,3 +261,6 @@ Standard Text Citation:
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+
+---
