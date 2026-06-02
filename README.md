@@ -8,8 +8,7 @@
 Supplementary Cisco Packet Tracer simulation files for the research paper:
 
 > **Impact of Subnetting Design on Network Performance**  
-> **Author:** Mrigank Singh (SAP ID: 590012123)  
-> **Affiliation:** B.Tech Computer Science, UPES Dehradun — 2024–2028  
+> **Author:** Prabhjeet Singh  
 
 ---
 
@@ -175,8 +174,8 @@ To view and interact with these scenarios:
 1. **Install Cisco Packet Tracer**: Download version `8.0` or higher from the [Cisco Networking Academy](https://www.netacad.com/).
 2. **Clone the Repository**:
    ```bash
-   git clone https://github.com/Mrigank005/subnetting-performance-study.git
-   cd subnetting-performance-study
+   git clone https://github.com/Prabhjeet8963/packetTracer.git
+   cd packetTracer
    ```
 3. **Open Simulation Files**: Launch Packet Tracer and navigate to `File -> Open` to select any of the `.pkt` files.
 
@@ -247,16 +246,15 @@ If you use or build upon these topologies for academic studies, please cite the 
 
 ```bibtex
 @article{singh2026impact,
-  author    = {Mrigank Singh},
+  author    = {Prabhjeet Singh},
   title     = {Impact of Subnetting Design on Network Performance},
-  institution = {University of Petroleum and Energy Studies (UPES), Dehradun},
   year      = {2026},
-  url       = {https://github.com/Mrigank005/subnetting-performance-study}
+  url       = {https://github.com/Prabhjeet8963/packetTracer}
 }
 ```
 
 Standard Text Citation:
-> Singh, M. (2026). *Impact of Subnetting Design on Network Performance*. UPES Dehradun. Available at: https://github.com/Mrigank005/subnetting-performance-study
+> Singh, P. (2026). *Impact of Subnetting Design on Network Performance*. Available at: https://github.com/Prabhjeet8963/packetTracer
 
 ---
 
